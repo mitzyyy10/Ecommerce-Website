@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200&display=swap" rel="stylesheet">
+    <script src="./assets/scripts/javascript.js"></script>
+</head>
+</head>
+<body>
+    <header>
+        <a href="#" class="main-logo">MixedClothes</a>
+        <div class="bx bx-menu" id="humburger-icon"></div>
+        <ul class="nav-bar">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+        <div class="icons">
+            <a href="#"><i class='bx bx-search'></i></a>
+            <a href="#"><div class="overlay" id="overlay">
+                <div class="login-container">
+                    <span class="close-btn" onclick="closeLoginForm()">&times;</span>
+                    <h2>Login</h2>
+                    <form class="login-form">
+                        <input type="text" placeholder="Username" required>
+                        <input type="password" placeholder="Password" required>
+                        <button class = "submit-btn" type="submit">Login</button>
+                        <a href="#">Create Account</a><br>
+                        <a href="#">Forgot Password?</a>
+                        
+                        <button type="button" class="back-btn" onclick="goBack()"><i ></i></button>
+                    </form>
+                </div>
+            </div>
+        
+            <button onclick="openLoginForm()"><i class='bx bx-user-circle'></i></button></a>
+            <a href="#"><i class='bx bxs-cart'></i></a>
+        </div>
+    </header> 
+    <section class = "shop" id="shop">
+        <div class="container">
+            <div class="box">
+                <img class="product" src="./assets/images/p1.png" alt="">
+                <h4>Shirred Back T-shirt</h4>
+                <h5>₱359.00</h5>
+                <div class="cart">
+                    <a href=""><i class='bx bxs-cart'></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img class="product" src="./assets/images/p2.png" alt="">
+                <h4>Purple Cargo Pants</h4>
+                <h5>₱400.00</h5>
+                <div class="cart">
+                    <a href=""><i class='bx bxs-cart'></i></a>
+                </div>
+            </div>
+            <div class="box">
+                <img class="product" src="./assets/images/p3.png" alt="">
+                <h4>Sleeveless Dress Pink</h4>
+                <h5>₱300.00</h5>
+                <div class="cart">
+                    <a href=""><i class='bx bxs-cart'></i></a>
+                </div>
+            </div>
+            <div class="box">
+                <img class="product" src="./assets/images/p6.png" alt="">
+                <h4>Cropped Slim Fit Pants</h4>
+                <h5>₱499.00</h5>
+                <div class="cart">
+                    <a href=""><i class='bx bxs-cart'></i></a>
+                </div>
+            </div>
+            <div class="box">
+                <img class="product" src="./assets/images/p4.png" alt="">
+                <h4>Kuji Manga UT Shirt</h4>
+                <h5>₱399.00</h5>
+                <div class="cart">
+                    <a href=""><i class='bx bxs-cart'></i></a>
+                </div>
+            </div>
+            <div class="box">
+                <img class="product" src="./assets/images/p5.png" alt="">
+                <h4>Round Neck Sweater Green</h4>
+                <h5>₱385.00</h5>
+                <div class="cart">
+                    <a href=""><i class='bx bxs-cart'></i></a>
+                </div>
+            </div>
+            <div class="box">
+                <img class="product" src="./assets/images/p10.png" alt="">
+                <h4>Textured Sweatshirt</h4>
+                <h5>₱300.00</h5>
+                <div class="cart">
+                    <a href=""><i class='bx bxs-cart'></i></a>
+                </div>
+            </div>
+            <div class="box">
+                <img class="product" src="./assets/images/p11.png" alt="">
+                <h4>Invisible Finish T-Shirt</h4>
+                <h5>₱320.00</h5>
+                <div class="cart">
+                    <a href=""><i class='bx bxs-cart'></i></a>
+                </div>
+            </div>
+            <div class="box">
+                <img class="product" src="./assets/images/p12.png" alt="">
+                <h4>Basics Drifit Polo Shirt</h4>
+                <h5>₱399.00</h5>
+                <div class="cart">
+                    <a href=""><i class='bx bxs-cart'></i></a>
+                </div>
+            </div>
+            <div class="box">
+                <img class="product" src="./assets/images/p7.png" alt="">
+                <h4>Black Plain T-Shirt</h4>
+                <h5>₱300.00</h5>
+                <div class="cart">
+                    <a href=""><i class='bx bxs-cart'></i></a>
+                </div>
+            </div>
+            <div class="box">
+                <img class="product" src="./assets/images/p8.png" alt="">
+                <h4>Mustard Ribbed Top</h4>
+                <h5>₱350.00</h5>
+                <div class="cart">
+                    <a href=""><i class='bx bxs-cart'></i></a>
+                </div>
+            </div>
+            <div class="box">
+                <img class="product" src="./assets/images/p9.png" alt="">
+                <h4>Linen Blend Open Collar Short Sleeve</h4>
+                <h5>₱400.00</h5>
+                <div class="cart">
+                    <a href=""><i class='bx bxs-cart'></i></a>
+                </div>
+            </div>      
+        </div>
+        </div>
+    </section>
+</body>
+</html>
